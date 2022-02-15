@@ -1,0 +1,7 @@
+.wrapper{
+background: linear-gradient(black, yellow);
+min-height: 100vh;
+}
+.text-center{
+    color:antiquewhite;
+}
