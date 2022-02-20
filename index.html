@@ -28,14 +28,16 @@
                         type="text" 
                         class="form-control" 
                         name="search"
-                        placeholder="search for contact" >
+                        placeholder="search for contact" 
+                        id="search"
+                        onkeyup="handleOnsearch()">
                         
             
   
                 </div>
                 <div class="col">
                     <select name="" id="" class="form-control" 
-                    onchange="handleOnChange(this)">
+                        onchange="handleOnChange(this)">
                         <option value="">--select gender--</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
